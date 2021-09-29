@@ -11,6 +11,7 @@ RUN apt-get update && apt-get dist-upgrade -y && apt-get install \
     cups-pdf \
     hpijs-ppds \
     supervisor \
+    printer-driver-foo2zjs \
     -y --force-yes  \
  && apt-get clean && rm -rf /var/lib/apt/lists/*
 
